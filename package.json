@@ -1,0 +1,42 @@
+{
+	"name": "@titanium/errors",
+	"version": "0.0.1",
+	"description": "Collection of common error objects for use with Titanium native mobile apps",
+	"main": "index.js",
+	"scripts": {
+		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://brenton.house"
+	},
+	"repository": {
+		"type": "git",
+		"url": "github:brentonhouse/titanium-errors"
+	},
+	"devDependencies": {
+		"@titanium/eslint-config": "0.0.11",
+		"eslint": "^6.7.2"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/brentonhouse/titanium-erros/issues"
+	},
+	"homepage": "https://github.com/brentonhouse/titanium-errors#readme",
+	"keywords": [
+		"titanium",
+		"mobile",
+		"alloy",
+		"turbo",
+		"axway",
+		"appcelerator",
+		"ios",
+		"android",
+		"iphone",
+		"ipad",
+		"errors",
+		"brenton-house"
+	]
+}
