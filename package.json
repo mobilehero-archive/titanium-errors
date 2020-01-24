@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/errors",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Collection of common error objects for use with Titanium native mobile apps",
 	"main": "index.js",
 	"scripts": {
