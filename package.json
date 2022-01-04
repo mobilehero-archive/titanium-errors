@@ -1,12 +1,12 @@
 {
 	"name": "@titanium/errors",
-	"version": "0.0.2",
-	"description": "Collection of common error objects for use with Titanium native mobile apps",
+	"version": "0.0.4",
+	"description": "Axway Amplify module for common error objects for use with Appcelerator Titanium apps",
 	"main": "index.js",
 	"scripts": {
 		"test": "npm install --ignore-scripts && npm run list",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prepublishOnly": "git pull && bump"
+		"prepublishOnly2": "git pull && bump"
 	},
 	"author": {
 		"name": "Brenton House",
@@ -19,13 +19,13 @@
 	},
 	"devDependencies": {
 		"@titanium/eslint-config": "0.0.11",
-		"eslint": "^6.8.0"
+		"eslint": "^7.1.0"
 	},
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/brentonhouse/titanium-erros/issues"
 	},
-	"homepage": "https://github.com/brentonhouse/titanium-errors#readme",
+	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"keywords": [
 		"titanium",
 		"mobile",
@@ -38,6 +38,9 @@
 		"iphone",
 		"ipad",
 		"errors",
+		"axway-amplify",
+		"plugin",
+		"api-builder",
 		"axwaydev",
 		"brenton-house"
 	]
