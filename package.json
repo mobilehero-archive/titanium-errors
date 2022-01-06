@@ -1,12 +1,15 @@
 {
 	"name": "@titanium/errors",
-	"version": "1.0.4",
-	"description": "Axway Amplify module for common error objects for use with Appcelerator Titanium apps",
+	"version": "1.0.5",
+	"description": "⭐  Axway Amplify module for common error objects for use with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
-		"test": "npm install --ignore-scripts && npm run list",
+		"lint": "eslint . --fix",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prepublishOnly2": "git pull && bump"
+		"prep": "npm install --ignore-scripts && npm run list",
+		"test": "npm run prep",
+		"prepublishOnly": "git pull && npm test && bump insane",
+		"prepublishOnly3": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"author": {
 		"name": "Brenton House",
