@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/errors",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Axway Amplify module for common error objects for use with Appcelerator Titanium apps",
 	"main": "index.js",
 	"scripts": {
@@ -15,7 +15,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "github:brentonhouse/titanium-errors"
+		"url": "github:mobilehero-archive/titanium-errors"
 	},
 	"devDependencies": {
 		"@titanium/eslint-config": "0.0.11",
@@ -23,7 +23,7 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/brentonhouse/titanium-erros/issues"
+		"url": "https://github.com/mobilehero-archive/titanium-erros/issues"
 	},
 	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"keywords": [
