@@ -1,15 +1,15 @@
 {
 	"name": "@titanium/errors",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "⭐  Axway Amplify module for common error objects for use with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint . --fix",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prep": "npm install --ignore-scripts && npm run list",
+		"prep": "npm install --ignore-scripts",
 		"test": "npm run prep",
 		"prepublishOnly": "git pull && npm test && bump insane",
-		"prepublishOnly3": "git pull && npm test && npm audit fix && bump insane"
+		"prepublishOnly2": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"author": {
 		"name": "Brenton House",
@@ -21,8 +21,8 @@
 		"url": "github:mobilehero-archive/titanium-errors"
 	},
 	"devDependencies": {
-		"@titanium/eslint-config": "0.0.11",
-		"eslint": "^7.6.0"
+		"@titanium/eslint-config": "1.0.8",
+		"eslint": "^8.6.0"
 	},
 	"license": "MIT",
 	"bugs": {
@@ -46,5 +46,18 @@
 		"api-builder",
 		"axwaydev",
 		"brenton-house"
-	]
+	],
+	"dependencies": {
+		"@geek/cache": "^1.0.2",
+		"@geek/config": "^0.2.4",
+		"@geek/dotenv": "^0.0.9",
+		"@geek/eslint-config": "^1.0.3",
+		"@geek/jsonc": "^1.0.4",
+		"@geek/jwt": "^1.0.1",
+		"@geek/logger": "^1.0.18",
+		"@geek/retry": "^1.0.0",
+		"@geek/spawn": "^0.0.3",
+		"@geek/spinner": "^1.0.0",
+		"@geek/tld": "^2.0.1-1"
+	}
 }
