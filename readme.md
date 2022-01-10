@@ -1,12 +1,12 @@
 [//]: # (header-start)
 
 <a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
-	<h1 align="center">
-	👇 &nbsp; See notes below  &nbsp; 👇
-</h1>	
+<h1 align="center">
+	Axway Amplify End-of-Life Announcement
+</h1>
 <h2 align="center">
-	Regarding Axway Amplify End-of-Life Announcement
-	</h2>
+	👇 &nbsp; See notes below  &nbsp; 👇
+</h2>	
 </a>
 
 <a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
@@ -48,9 +48,9 @@ Some Open-Source versions of Axway products will live on after End-of-Life (EOL)
 
 # @titanium/errors
 
-[![@titanium/errors](https://img.shields.io/npm/v/@titanium/errors.png)](https://www.npmjs.com/package/@titanium/errors)
-[![npm downloads](https://img.shields.io/npm/dm/@titanium/errors.svg)](https://www.npmjs.com/package/@titanium/errors)
-[![npm downloads](https://img.shields.io/librariesio/release/npm/@titanium/errors.svg)](https://www.npmjs.com/package/@titanium/errors)
+[![@titanium/errors version](https://img.shields.io/npm/v/@titanium/errors.png)](https://www.npmjs.com/package/@titanium/errors)
+[![@titanium/errors downloads](https://img.shields.io/npm/dm/@titanium/errors.svg)](https://www.npmjs.com/package/@titanium/errors)
+[![@titanium/errors dependencies](https://img.shields.io/librariesio/release/npm/@titanium/errors.svg)](https://www.npmjs.com/package/@titanium/errors)
 
 
 * [📝 Description](#-description)
