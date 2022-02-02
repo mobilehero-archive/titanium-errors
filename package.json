@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/errors",
-	"version": "1.0.36",
+	"version": "1.0.37",
 	"description": "⭐  Axway Amplify module for common error objects for use with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
