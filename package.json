@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/errors",
-	"version": "1.0.40",
+	"version": "1.0.41",
 	"description": "⭐  Axway Amplify module for common error objects for use with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -21,7 +21,7 @@
 		"url": "github:mobilehero-archive/titanium-errors"
 	},
 	"devDependencies": {
-		"@titanium/eslint-config": "1.0.44",
+		"@titanium/eslint-config": "1.0.45",
 		"eslint": "^8.8.0"
 	},
 	"license": "MIT",
@@ -54,7 +54,7 @@
 		"@geek/eslint-config": "^1.0.3",
 		"@geek/jsonc": "^1.0.8",
 		"@geek/jwt": "^1.0.1",
-		"@geek/logger": "^1.0.18",
+		"@geek/logger": "^1.0.19",
 		"@geek/retry": "^1.0.0",
 		"@geek/spawn": "^1.0.2",
 		"@geek/spinner": "^1.0.2",
